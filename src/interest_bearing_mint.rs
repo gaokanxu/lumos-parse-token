@@ -9,7 +9,7 @@ use {
     },
 };
 
-pub(in crate::parse_token) fn parse_interest_bearing_mint_instruction(
+pub fn parse_interest_bearing_mint_instruction(
     instruction_data: &[u8],
     account_indexes: &[u8],
     account_keys: &AccountKeys,

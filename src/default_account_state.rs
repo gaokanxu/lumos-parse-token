@@ -5,7 +5,8 @@ use {
     },
 };
 
-pub(in crate::parse_token) fn parse_default_account_state_instruction(
+
+pub fn parse_default_account_state_instruction(
     instruction_data: &[u8],
     account_indexes: &[u8],
     account_keys: &AccountKeys,

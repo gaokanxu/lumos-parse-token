@@ -1,7 +1,6 @@
 use {super::*, lpl_token_2022::extension::transfer_fee::instruction::TransferFeeInstruction};
 
-//pub(in crate::parse_token) fn parse_transfer_fee_instruction(
-//gaokanxu 2024.07.26 modify upper line to below line
+
 pub fn parse_transfer_fee_instruction(
     transfer_fee_instruction: TransferFeeInstruction,
     account_indexes: &[u8],

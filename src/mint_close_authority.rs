@@ -3,7 +3,7 @@ use {
     lpl_token_2022::lumos_program::{program_option::COption, pubkey::Pubkey},
 };
 
-pub(in crate::parse_token) fn parse_initialize_mint_close_authority_instruction(
+pub fn parse_initialize_mint_close_authority_instruction(
     close_authority: COption<Pubkey>,
     account_indexes: &[u8],
     account_keys: &AccountKeys,

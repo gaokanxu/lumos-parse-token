@@ -1,6 +1,6 @@
 use {super::*, lpl_token_2022::extension::ExtensionType};
 
-pub(in crate::parse_token) fn parse_reallocate_instruction(
+pub fn parse_reallocate_instruction(
     extension_types: Vec<ExtensionType>,
     account_indexes: &[u8],
     account_keys: &AccountKeys,

@@ -6,7 +6,7 @@ use {
     },
 };
 
-pub(in crate::parse_token) fn parse_transfer_hook_instruction(
+pub fn parse_transfer_hook_instruction(
     instruction_data: &[u8],
     account_indexes: &[u8],
     account_keys: &AccountKeys,

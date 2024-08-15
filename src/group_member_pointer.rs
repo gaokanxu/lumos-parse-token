@@ -6,7 +6,7 @@ use {
     },
 };
 
-pub(in crate::parse_token) fn parse_group_member_pointer_instruction(
+pub fn parse_group_member_pointer_instruction(
     instruction_data: &[u8],
     account_indexes: &[u8],
     account_keys: &AccountKeys,

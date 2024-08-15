@@ -1,14 +1,11 @@
 use {
-    super::*,
-    lumos_account_decoder::parse_token_extension::UiConfidentialTransferMint,
+    crate::parse_token_extension::UiConfidentialTransferMint,
     lpl_token_2022::{
         extension::confidential_transfer::{instruction::*, ConfidentialTransferMint},
         instruction::{decode_instruction_data, decode_instruction_type},
     },
 };
 
-//pub(in crate::parse_token) fn parse_confidential_transfer_instruction(
-//gaokanxu 2024.08.16
 pub fn parse_confidential_transfer_instruction(
     instruction_data: &[u8],
     account_indexes: &[u8],

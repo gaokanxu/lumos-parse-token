@@ -1,6 +1,6 @@
 use {super::*, lpl_token_2022::lumos_program::pubkey::Pubkey};
 
-pub(in crate::parse_token) fn parse_initialize_permanent_delegate_instruction(
+pub fn parse_initialize_permanent_delegate_instruction(
     delegate: Pubkey,
     account_indexes: &[u8],
     account_keys: &AccountKeys,

@@ -7,8 +7,6 @@ use {
     },
 };
 
-//pub(in crate::parse_token) fn parse_confidential_transfer_fee_instruction(
-//gaokanxu 2024.08.16
 pub fn parse_confidential_transfer_fee_instruction(
     instruction_data: &[u8],
     account_indexes: &[u8],
